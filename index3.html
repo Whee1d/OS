@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header>
+        <nav class="menu">
+            <a class="navig" href="index.html">
+                <img class="logo" src="img/logo.jpg" alt="Лого">
+            </a>
+            
+            <button class="burger-menu" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="index2.html">Мастерские</a>
+                <a href="index7.html">Галерея</a>
+                <a href="index4.html">О нас</a>
+                <a href="index3.html">Контакты</a>
+            </div>
+            
+            <ul class="spisok">
+                <li><a class="navig" href="index2.html">Мастерские</a></li>
+                <li><a class="navig" href="index7.html">Галерея</a></li>
+                <li><a class="navig" href="index4.html">О нас</a></li>
+                <li><a class="navig" href="index3.html">Контакты</a></li>
+            </ul>
+            
+            <a class="navig" href="index5.html">
+                <img src="img/profil.png" alt="Профиль" class="header__profile">
+            </a>    
+        </nav>
+    </header>
+  <main>
+    <section>
+        <div class="box_grid_1_index3">
+            <div class="grid1_1_index3">
+                <h1>Контакты</h1>
+            </div>
+            <div class="grid1_2_index3">
+                <div class="grid1_2_1_index3">
+                    <h4>Адрес</h4>
+                    <p>Санкт-Петербург, ул. Куйбышева, 25 <br>(вход со двора, рядом с метро «Горьковская»)</p>
+                    <h4>Расписание работы</h4>
+                    <p>Понедельник – Воскресенье: 12:00 – 20:00 <br>Среда - выходной день</p>
+                </div>
+                <div class="grid1_2_2_index3">
+                    <h4>Контакты</h4>
+                    <p>+7(909)562-98-64</p>
+                    <p>+7(909)563-63-70</p>
+                    <h4>Почта</h4>
+                    <p>Skorodumov_maks2006@mail.ru</p>
+                </div>
+            </div>
+            <div class="grid1_3_index3">
+                <img src="img/grid1_1_index3.png" alt="">
+            </div>
+            <div class="grid1_4_index3">
+                <img src="img/grid1_2_index3.png" alt="">
+            </div>
+            <div class="grid1_5_index3">
+                <img src="img/grid1_3_index3.png" alt="">
+            </div>
+        </div>
+           <div class="map_container">
+            <iframe class="iframe1"
+                    src="https://yandex.ru/map-widget/v1/?text=Санкт-Петербург, ул. Кубышева, 25&z=16" 
+                    width="100%" 
+                    height="500"
+                    margin-top = "20px" 
+                    frameborder="0" 
+                    allowfullscreen="true">
+            </iframe>
+        </div>
+    </section>
+   <section class="faq-section">  
+    <div class="faq-container">
+        <div class="faq-item">
+            <button class="faq-question">
+                <span>Можно ли прийти с ребенком?</span>
+                <span class="faq-icon">
+                    <svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </span>
+            </button>
+            <div class="faq-answer">
+                <p>Да, конечно! У нас дружелюбная атмосфера, и мы рады детям. Однако просим заранее предупредить нас, чтобы мы могли подготовить для вашего ребенка удобное место и необходимые материалы.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">
+                <span>Нужна ли предварительная запись?</span>
+                <span class="faq-icon">
+                    <svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </span>
+            </button>
+            <div class="faq-answer">
+                <p>Да, предварительная запись обязательна. Это помогает нам подготовить все материалы и обеспечить каждому участнику достаточно внимания и места для работы.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">
+                <span>Есть ли скидки для студентов?</span>
+                <span class="faq-icon">
+                    <svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </span>
+            </button>
+            <div class="faq-answer">
+                <p>Да, мы предоставляем скидки студентам при предъявлении студенческого билета. Размер скидки составляет 10% от стоимости мастер-класса.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">
+                <span>Сколько по времени занимает мастер-класс?</span>
+                <span class="faq-icon">
+                    <svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </span>
+            </button>
+            <div class="faq-answer">
+                <p>Продолжительность мастер-класса составляет в среднем 2 часа. Однако время может варьироваться в зависимости от сложности проекта и вашего темпа работы.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">
+                <span>Могу ли я забрать свою вещь домой?</span>
+                <span class="faq-icon">
+                    <svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </span>
+            </button>
+            <div class="faq-answer">
+                <p>Да, конечно! Все изделия, которые вы создаете на наших мастер-классах, остаются у вас. Это ваша работа, и вы можете забрать ее с собой сразу после окончания занятия.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">
+                <span>Что если я ничего не умею — шить, вязать или работать с тканью?</span>
+                <span class="faq-icon">
+                    <svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </span>
+            </button>
+            <div class="faq-answer">
+                <p>Не переживайте! Наши мастер-классы рассчитаны на разный уровень подготовки, включая начинающих. Инструктор подробно объяснит и покажет все этапы работы. Главное — ваше желание творить!</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="feedback-section">
+    <h2 class="feedback-title">обратная связь</h2>
+    
+    <div class="feedback-container">
+        <!-- Форма -->
+        <form class="feedback-form" id="feedbackForm" novalidate>
+            <div class="form-group">
+                <label for="name">Имя</label>
+                <input type="text" id="name" name="name" placeholder="Введите ваше имя">
+                <span class="error-msg" id="nameError"></span>
+            </div>
+            
+            <div class="form-group">
+                <label for="phone">Телефон</label>
+                <input type="tel" id="phone" name="phone" placeholder="+7">
+                <span class="error-msg" id="phoneError"></span>
+            </div>
+            
+            <div class="form-group">
+                <label for="question">Какой у вас вопрос?</label>
+                <textarea id="question" name="question" placeholder="Напишите ваш вопрос..."></textarea>
+                <span class="error-msg" id="questionError"></span>
+            </div>
+            
+            <button class="btn-view-details">
+    Отправить
+    <span class="arrow-circle">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+    </span>
+             </button>
+        </form>
+
+
+        <div class="feedback-graphic">
+            <img src="img/convert.png" alt="Конверт" class="envelope-img">
+            
+
+                <div class="graphic-badge">
+                  <div class="badge-text">
+                       <span>нам это <br> важно</span>
+                   </div>
+                   <span class="heart-icon">♡</span>
+                </div>
+        </div>
+    </div>
+</section>
+<footer>
+        <nav class="footer">
+            <a class="navig" href="index.html">
+                <img class="logo" src="img/logo.jpg" alt="Лого">
+            </a>
+            <ul class="spisok_footer">
+                <li><a class="navig" href="index2.html">Мастерские</a></li>
+                <li><a class="navig" href="index7.html">Галерея</a></li>
+                <li><a class="navig" href="index4.html">О нас</a></li>
+                <li><a class="navig" href="index5.html">Контакты</a></li>
+            </ul>
+            <div class="network_footer">
+                <a href="#">
+                    <img class="max" src="img/max.svg" alt="Мах">
+                </a>
+                <a href="#">
+                    <img class="inst" src="img/inst.svg" alt="Инстаграм">
+                </a>
+                <a href="#">
+                    <img class="tg" src="img/tg.svg" alt="Телеграм">
+                </a>  
+            </div>    
+        </nav>
+        <div class="copyrat">
+            <p class="navig">Все права защищены ООО "Wheeld" 2026 &copy;</p>
+            <p class="navig">Сайт используется исключительно в целях <br> информирования людей</p>
+        </div>
+    </footer>
+    
+    <script>
+        function toggleMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.classList.toggle('active');
+        }
+
+        document.addEventListener('click', function(event) {
+            const mobileMenu = document.getElementById('mobileMenu');
+            const burgerMenu = document.querySelector('.burger-menu');
+            
+            if (!burgerMenu.contains(event.target) && !mobileMenu.contains(event.target)) {
+                mobileMenu.classList.remove('active');
+            }
+        });
+    </script>
+<script src="script.js"></script>
+</body>
+      
+  

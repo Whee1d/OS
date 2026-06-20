@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Нужна перезагрузка</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <a class="navig" href="index.html">
+                <img class="logo" src="img/logo.jpg" alt="Лого">
+            </a>
+            
+            <button class="burger-menu" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="index2.html">Мастерские</a>
+                <a href="index7.html">Галерея</a>
+                <a href="index4.html">О нас</a>
+                <a href="index3.html">Контакты</a>
+            </div>
+            
+            <ul class="spisok">
+                <li><a class="navig" href="index2.html">Мастерские</a></li>
+                <li><a class="navig" href="index7.html">Галерея</a></li>
+                <li><a class="navig" href="index4.html">О нас</a></li>
+                <li><a class="navig" href="index3.html">Контакты</a></li>
+            </ul>
+            
+            <a class="navig" href="index5.html">
+                <img src="img/profil.png" alt="Профиль" class="header__profile">
+            </a>    
+        </nav>
+    </header>
+    <main>
+        <section class="hero-section">
+    <div class="box">
+        <p class="top-phrase">Первая в мире мастерская, где создается искусство</p>
+        <div class="info-rect">
+            <h1 class="main-title">нужна перезагрузка</h1>
+            <p class="main-desc">Мы не переделываем вещи — мы даём им новую жизнь.</p>
+            <button class="btn_glav">
+                           Перейти к услугам
+                           <span class="arrow-circle">
+                                <svg width="30" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                   <path d="M5 12h14M12 5l7 7-7 7"/>
+                               </svg>
+                           </span>
+                        </button>
+        </div>
+        <div class="big-gray-rect">
+            <img src="img/Glav_1.png" alt="Главная">
+        </div>
+        <div class="mini-cards">
+                  <div class="mini-card">
+                      <div class="card-inner">
+                          <img src="img/Glav_4.png" alt="пластинка">
+                             <button class="card-btn">→</button>
+                         </div>
+                     </div>
+                     <div class="mini-card">
+                          <div class="card-inner">
+                              <img src="img/Glav_3.png" alt="телефон">
+                              <button class="card-btn">→</button>
+                            </div>
+                     </div>
+                           <div class="mini-card">
+                              <div class="card-inner">
+                                 <img src="img/Glav_2.png" alt="куртка">
+                                <button class="card-btn">→</button>
+                            </div>
+                    </div>
+             </div>
+    </div>
+</section>
+<section>
+    <h2 class="section-title">интересные факты</h2>
+    
+    <div class="facts-grid">
+        <div class="text-block">
+            <h3 class="glav_h3">за 12 месяцев работы «Нужна перезагрузка»</h3>
+            <p class="glav_p">142 старых телефона превратились в светящиеся инсталляции</p>
+            <p class="glav_p">568 человек пришли с «ненужными» вещами — и ушли с новыми историями.</p>
+            <p class="glav_p">89 джинсовых курток стали сумками, рюкзаками и панно — самая популярная модель: «Куртка с первым концертом», где QR-код открывает запись выступления группы «Би-2» 2018 года.</p>
+            <p class="glav_p">317 книг с пометками — от дневников до учебников — получили вторую жизнь: одна девушка превратила книгу по физике в блокнот, а в QR-биографии оставила голосовую запись: «Это тот самый том, где я впервые поняла, что люблю науку».</p>
+        </div>
+
+        <div class="main-photo">
+            <img src="img/Рука_Главная.png" alt="Рука-инсталляция">
+        </div>
+
+        <div class="stat-card">
+            <img src="img/единица_главная.png" alt="Цифра 1">
+        </div>
+
+        <div class="info-card">
+            <div class="card-header">
+                <span class="card-title">ваша вещь</span>
+                <span class="card-tag">не конец</span>
+            </div>
+            <p class="card-subtitle">это точка старта</p>
+            <div class="card-dots">
+                <span class="dot1"></span>
+                <span class="dot2"></span>
+                <span class="dot3"></span>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="gallery-section">
+    <h2 class="section-title">галерея</h2>
+    
+    <div class="gallery-wrapper">
+        
+        <button class="gallery-arrow arrow-left">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15 18l-6-6 6-6"/>
+            </svg>
+        </button>
+
+        <div class="gallery-container">
+            
+            <div class="gallery-card">
+                <div class="card-photo">
+                    <img src="img/Галерея1.png" alt="Камера">
+                    <span class="card-date">12.03.2026</span>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <div class="card-photo">
+                    <img src="img/Галерея2.png" alt="Часы">
+                    <span class="card-date">04.04.2026</span>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <div class="card-photo">
+                    <img src="img/Галерея3.png" alt="Кроссовок">
+                    <span class="card-date">31.03.2026</span>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="gallery-arrow arrow-right">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 18l6-6-6-6"/>
+            </svg>
+        </button>
+
+    </div>
+</section>
+<section>
+    <h2>услуги</h2>
+    <div class="services-grid">
+        <article class="service-card">
+            <div class="service-card__image">
+                <img src="img/глав_услуги1.png" alt="Старый телефон">
+            </div>
+            <h4>оживить технику</h4>
+            <p>Принесите старый телефон, плеер или плату — мы поможем превратить его в светящуюся инсталляцию.</p>
+            <button class="btn_glav">
+                           Подробнее
+                           <span class="arrow-circle">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                   <path d="M5 12h14M12 5l7 7-7 7"/>
+                               </svg>
+                           </span>
+            </button>
+        </article>
+        <article class="service-card">
+            <div class="service-card__image">
+                <img src="img/глав_услуги2.png" alt="Одежда">
+            </div>
+            <h4>перешить память</h4>
+            <p>Джинсы, свитер, футболка — всё, что храните «на всякий случай». Сделаем из них новый арт-объект.</p>
+            <button class="btn_glav">
+                           Подробнее
+                           <span class="arrow-circle">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                   <path d="M5 12h14M12 5l7 7-7 7"/>
+                               </svg>
+                           </span>
+            </button>
+        </article>
+        <article class="service-card">
+            <div class="service-card__image">
+                <img src="img/глав_услуги3.png" alt="Билеты и открытки">
+            </div>
+            <h4>оцифровать архив</h4>
+            <p>Книги, дневники, билеты, открытки — превратим в блокноты, открытки или звуковые артефакты.</p>
+           <button class="btn_glav">
+                           Подробнее
+                           <span class="arrow-circle">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                   <path d="M5 12h14M12 5l7 7-7 7"/>
+                               </svg>
+                           </span>
+            </button>
+        </article>
+    </div>
+</section>
+<section>
+    <h2 class="section-title">как работаем</h2>
+    
+    <div class="work-container">
+
+        <div class="steps-wrapper">
+            
+            <div class="step-row step-row-1">
+                <div class="step-text">
+                    <p>Многие хранят старые вещи — футболки, телефоны, книги — не потому что они нужны, а потому что в них есть память. Но нет места, где можно было бы их переосмыслить, а не просто выбросить.</p>
+                </div>
+                <div class="step-number">
+                    <div class="step-number1">
+                        <span class="span1">1</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="step-row step-row-2">
+                <div class="step-number">
+                    <div class="step-number1">
+                        <span class="span2">2</span>
+                    </div>
+                </div>
+                <div class="step-text">
+                    <p>Готовая вещь получает QR-код — это её цифровая биография: фото, видео процесса, голосовая запись от вас. Её можно оставить в галерее или забрать домой. И она будет жить дальше — не как мусор, а как история.</p>
+                </div>
+            </div>
+
+
+            <div class="step-row step-row-3">
+                <div class="step-text">
+                    <p>В Reboot Needs вы приносите свою вещь и за 1–2 часа вместе с ментором превращаете её в нечто новое: сумку из джинсов, светильник из телефона, блокнот из книги. Всё делается руками, с поддержкой и без давления.</p>
+                </div>
+                <div class="step-number">
+                    <div class="step-number1">
+                        <span class="span1">3</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="work-image">
+            <img src="img/Птица.png" alt="Процесс работы">
+        </div>
+    </div>
+</section>
+<section class="about-section">
+    <h2 class="section-title">о нас</h2>
+    
+    <div class="about-top">
+        <div class="about-text">
+            <p>Нужна перезагрузка — это интерактивная выставка-мастерская в Петербурге, где молодые люди превращают старые вещи в артефакты с историей. Мы не учим «жить с меньшим» — мы помогаем увидеть больше в том, что уже есть.</p>
+            <p>Здесь можно принести футболку, телефон или книгу и за 1–2 часа сделать из неё что-то новое: сумку, светильник, арт-объект — с QR-кодом, который расскажет, как это было сделано.</p>
+            <button class="btn_glav">
+                           О нас
+                           <span class="arrow-circle">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                   <path d="M5 12h14M12 5l7 7-7 7"/>
+                               </svg>
+                           </span>
+                        </button>
+        </div>
+        <div class="about-photo">
+            <img src="img/Онас_главная.png" alt="Мастерская">
+        </div>
+    </div>
+    
+    <div class="about-bottom">
+            <iframe class="about-map"
+                src="https://yandex.ru/map-widget/v1/?text=Санкт-Петербург, ул. Куйбышева, 25&z=16" 
+                width="100%" 
+                height="100%" 
+                frameborder="0" 
+                allowfullscreen="true">
+            </iframe>
+        <div class="about-contacts">
+            <div class="contacts-row">
+                <div class="contact-col">
+                    <h4>адрес</h4>
+                    <p>Санкт-Петербург, ул. Куйбышева, 25<br>
+                    (вход со двора, рядом с метро «Горьковская»)</p>
+                </div>
+                <div class="contact-col">
+                    <h4>контакты</h4>
+                    <p>+7(909)562-98-64<br>
+                    +7(909)563-63-70</p>
+                </div>
+            </div>
+            <div class="contacts-row">
+                <div class="contact-col">
+                    <h4>расписание работы</h4>
+                    <p>Понедельник – Воскресенье: 12:00 – 20:00<br>
+                    Среда – выходной день</p>
+                </div>
+                <div class="contact-col">
+                    <h4>почта</h4>
+                    <p>Skorodumov_maks2006@mail.ru</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <h2 class="section-title">отзывы</h2>    
+    <div class="reviews-wrapper">     
+        <button class="review-arrow arrow-left">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15 18l-6-6 6-6"/>
+            </svg>
+        </button>
+        <div class="reviews-container">
+            
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="img/отзыв1.png" alt="Юлия" class="review-avatar">
+                    <h4 class="review-name">Юлия 30 лет</h4>
+                </div>
+                <p class="review-text">Пришла с книгой, в которой сын рисовал в 5 лет. Превратили её в блокнот с NFC. Нужна перезагрузка — это не мастерская. Это место, где ты снова веришь в магию.</p>
+                <div class="review-rating">
+                    <span>★</span>
+                    <span>★</span>
+                    <span>★</span>
+                    <span>★</span>
+                    <span>☆</span>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="img/отзыв2.png" alt="Андрей" class="review-avatar">
+                    <h4 class="review-name">Андрей 18 лет</h4>
+                </div>
+                <p class="review-text">Принёс старый Nokia — думал, просто поиграю с пайкой. А получилось что-то большее. Теперь он светится, когда звонит мама. Спасибо, что не сказали это бред.</p>
+                <div class="review-rating">
+                    <span>★</span>
+                    <span>★</span>
+                    <span>★</span>
+                    <span>★</span>
+                    <span>★</span>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="img/отзыв3.png" alt="Анна" class="review-avatar">
+                    <h4 class="review-name">Анна 23 года</h4>
+                </div>
+                <p class="review-text">Сшила сумку из джинсов, которые носила на первом свидании. Это хороший опыт. Спасибо большое, приду ещё раз!</p>
+                <div class="review-rating">
+                    <span>★</span>
+                    <span>★</span>
+                    <span>★</span>
+                    <span>★</span>
+                    <span>☆</span>
+                </div>
+            </div>
+
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="img/отзыв4.png" alt="Максим" class="review-avatar">
+                    <h4 class="review-name">Максим 27 лет</h4>
+                </div>
+                <p class="review-text">Я технарь. Думал, здесь будут только швы и иголки. Но оказалось — можно паять и чувствовать. Сделал инсталляцию из материнской платы. Это мой первый арт.</p>
+                <div class="review-rating">
+                    <span>★</span>
+                    <span>★</span>
+                    <span>★</span>
+                    <span>★</span>
+                    <span>★</span>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="review-arrow arrow-right">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 18l6-6-6-6"/>
+            </svg>
+        </button>
+    </div>
+</section>
+
+</main>
+<footer>
+        <nav class="footer">
+            <a class="navig" href="index.html">
+                <img class="logo" src="img/logo.jpg" alt="Лого">
+            </a>
+            <ul class="spisok_footer">
+                <li><a class="navig" href="index2.html">Мастерские</a></li>
+                <li><a class="navig" href="index7.html">Галерея</a></li>
+                <li><a class="navig" href="index4.html">О нас</a></li>
+                <li><a class="navig" href="index5.html">Контакты</a></li>
+            </ul>
+            <div class="network_footer">
+                <a href="#">
+                    <img class="max" src="img/max.svg" alt="Мах">
+                </a>
+                <a href="#">
+                    <img class="inst" src="img/inst.svg" alt="Инстаграм">
+                </a>
+                <a href="#">
+                    <img class="tg" src="img/tg.svg" alt="Телеграм">
+                </a>  
+            </div>    
+        </nav>
+        <div class="copyrat">
+            <p class="navig">Все права защищены ООО "Wheeld" 2026 &copy;</p>
+            <p class="navig">Сайт используется исключительно в целях <br> информирования людей</p>
+        </div>
+    </footer>
+    
+    <script>
+        function toggleMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.classList.toggle('active');
+        }
+
+        document.addEventListener('click', function(event) {
+            const mobileMenu = document.getElementById('mobileMenu');
+            const burgerMenu = document.querySelector('.burger-menu');
+            
+            if (!burgerMenu.contains(event.target) && !mobileMenu.contains(event.target)) {
+                mobileMenu.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>

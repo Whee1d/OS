@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Личный кабинет</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <a class="navig" href="index.html">
+                <img class="logo" src="img/logo.jpg" alt="Лого">
+            </a>
+            <div class="burger-menu" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="index2.html">Мастерские</a>
+                <a href="index7.html">Галерея</a>
+                <a href="index4.html">О нас</a>
+                <a href="index3.html">Контакты</a>
+            </div>
+            <ul class="spisok">
+                <li><a class="navig" href="index2.html">Мастерские</a></li>
+                <li><a class="navig" href="index7.html">Галерея</a></li>
+                <li><a class="navig" href="index4.html">О нас</a></li>
+                <li><a class="navig" href="index3.html">Контакты</a></li>
+            </ul>
+            <a class="navig profile-link" href="index5.html">
+                <img src="img/profil.png" alt="Профиль" class="header__profile">
+            </a>
+        </nav>
+    </header>
+    <div class="tablet-nav">
+        <div class="tablet-nav-inner">
+            <a href="#" class="tablet-nav-item active">Мои записи</a>
+            <a href="index5.html" class="tablet-nav-item">Личные данные</a>
+            <a href="index8.html" class="tablet-nav-item">Мои объекты</a>
+            <a href="index9.html" class="tablet-nav-item">Моя QR-биография</a>
+        </div>
+    </div>
+    <section class="selectionlch">
+        <div class="lch_block_1">
+            <ol class="left_info">
+                <li><a class="nav2_1" href="">Мои записи</a></li>
+                <div class="nav2_2">
+                   <li><a class="nav2_2_text" href="index5.html">Личные данные</a></li>
+                   <li><a class="nav2_2_text" href="index8.html">Мои объекты</a></li>
+                   <li><a class="nav2_2_text" href="index9.html">Моя QR-биография</a></li>
+                </div>
+                <div class="network">
+                 <a href="#"><img class="max" src="img/max.svg" alt="Мах"></a>
+                 <a href="#"><img class="inst" src="img/inst.svg" alt="Инстаграм"></a>
+                 <a href="#"><img class="tg" src="img/tg.svg" alt="Телеграм"></a>
+                </div>
+            </ol>
+            <div class="right_info">
+                <div class="right1">
+                    <h2 class="lch_h2">Записи</h2>
+                    <p class="lch_p">Актуальная запись №5430</p>
+                    <article class="lch_card1">
+                        <h4 class="lch_card1_h4">Техника</h4>
+                        <p class="lch_card1_p">8 Апреля в 12:30</p>
+                        <h4 class="lch_card1_h4_2">Сломанный телефон</h4>
+                        <p class="lch_card1_p">Продолжительность<br>сеанса 2 часа</p>
+                        <button class="lch_card1_btn">
+                           Подробнее
+                           <span class="arrow-circle">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                   <path d="M5 12h14M12 5l7 7-7 7"/>
+                               </svg>
+                           </span>
+                        </button>
+                    </article>
+                </div>
+                <div class="right2">
+                    <img src="img/plastina.png" alt="пластинка">
+                    <div class="right2_info">
+                        <h3>Мы ждём<br>тебя</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="selectionlch">
+        <div class="lch_block_2">
+            <div class="left_info_2">
+                <div class="exit">
+                 <li><a class="exit_text" href="">Выйти</a></li>
+                </div>
+            </div>
+            <div class="right_info-2">
+                 <h4 class="zapic">предыдущие записи</h4>
+                 <div class="lch_block_2">
+                    <div class="lch_block_2_left">
+                       <p class="lch_p2">Запись №4313</p>
+                        <article class="lch_card2">
+                            <h4 class="lch_card1_h4">Бумага</h4>
+                            <p class="lch_card1_p">14 февраля в 14:00</p>
+                            <h4 class="lch_card1_h4_2">старые книги</h4>
+                            <p class="lch_card1_p">Продолжительность<br>сеанса 2 часа</p>
+                            <button class="lch_card1_btn">
+                               Подробнее
+                               <span class="arrow-circle">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                       <path d="M5 12h14M12 5l7 7-7 7"/>
+                                   </svg>
+                               </span>
+                            </button>
+                        </article>
+                       <p class="lch_p2">Запись №1343</p>
+                        <article class="lch_card2">
+                            <h4 class="lch_card1_h4">Одежда</h4>
+                            <p class="lch_card1_p">7 Марта в 16:30</p>
+                            <h4 class="lch_card1_h4_2">рваные джинсы</h4>
+                            <p class="lch_card1_p">Продолжительность<br>сеанса 2 часа</p>
+                            <button class="lch_card1_btn">
+                               Подробнее
+                               <span class="arrow-circle">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                       <path d="M5 12h14M12 5l7 7-7 7"/>
+                                   </svg>
+                               </span>
+                            </button>
+                        </article>
+                    </div>
+                    <div class="lch_block_2_left_2">
+                      <p class="lch_p2">Запись №5221</p>
+                        <article class="lch_card2">
+                            <h4 class="lch_card1_h4">Одежда</h4>
+                            <p class="lch_card1_p">10 Марта в 17:00</p>
+                            <h4 class="lch_card1_h4_2">порванная сумка</h4>
+                            <p class="lch_card1_p">Продолжительность<br>сеанса 2 часа</p>
+                            <button class="lch_card1_btn">
+                               Подробнее
+                               <span class="arrow-circle">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                       <path d="M5 12h14M12 5l7 7-7 7"/>
+                                   </svg>
+                               </span>
+                            </button>
+                        </article>
+                       <p class="lch_p2">Запись №5231</p>
+                        <article class="lch_card2">
+                            <h4 class="lch_card1_h4">Техника</h4>
+                            <p class="lch_card1_p">4 Апреля в 18:30</p>
+                            <h4 class="lch_card1_h4_2">Сломанный диктофон</h4>
+                            <p class="lch_card1_p">Продолжительность<br>сеанса 2 часа</p>
+                            <button class="lch_card1_btn">
+                               Подробнее
+                               <span class="arrow-circle">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                       <path d="M5 12h14M12 5l7 7-7 7"/>
+                                   </svg>
+                               </span>
+                            </button>
+                        </article>
+                    </div>
+                    <div class="lch_block_2_right">
+                        <div class="chicla">
+                            <div class="chicla_border">
+                                <p class="chicla1">1</p>
+                            </div>
+                        </div>
+                        <div class="chicla">
+                            <div class="chicla_border">
+                                <p class="chicla2">2</p>
+                            </div>
+                        </div>
+                        <div class="chicla">
+                            <div class="chicla_border">
+                                <p class="chicla3">3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <footer>
+        <nav class="footer">
+            <a class="navig" href="index.html">
+                <img class="logo" src="img/logo.jpg" alt="Лого">
+            </a>
+            <ul class="spisok_footer">
+                <li><a class="navig" href="index2.html">Мастерские</a></li>
+                <li><a class="navig" href="index7.html">Галерея</a></li>
+                <li><a class="navig" href="index4.html">О нас</a></li>
+                <li><a class="navig" href="index5.html">Контакты</a></li>
+            </ul>
+            <div class="network_footer">
+                <a href="#">
+                    <img class="max" src="img/max.svg" alt="Мах">
+                </a>
+                <a href="#">
+                    <img class="inst" src="img/inst.svg" alt="Инстаграм">
+                </a>
+                <a href="#">
+                    <img class="tg" src="img/tg.svg" alt="Телеграм">
+                </a>  
+            </div>    
+        </nav>
+        <div class="copyrat">
+            <p class="navig">Все права защищены ООО "Wheeld" 2026 &copy;</p>
+            <p class="navig">Сайт используется исключительно в целях <br> информирования людей</p>
+        </div>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.classList.toggle('active');
+        }
+        document.addEventListener('click', function(event) {
+            const mobileMenu = document.getElementById('mobileMenu');
+            const burgerMenu = document.querySelector('.burger-menu');
+            if (!burgerMenu.contains(event.target) && !mobileMenu.contains(event.target)) {
+                mobileMenu.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>

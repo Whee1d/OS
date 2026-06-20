@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Личный кабинет</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <a class="navig" href="index.html">
+                <img class="logo" src="img/logo.jpg" alt="Лого">
+            </a>
+            
+            <!-- Бургер-меню -->
+            <button class="burger-menu" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <!-- Выпадающее мобильное меню -->
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="index2.html">Мастерские</a>
+                <a href="index7.html">Галерея</a>
+                <a href="index4.html">О нас</a>
+                <a href="index3.html">Контакты</a>
+            </div>
+            
+            <ul class="spisok">
+                <li><a class="navig" href="index2.html">Мастерские</a></li>
+                <li><a class="navig" href="index7.html">Галерея</a></li>
+                <li><a class="navig" href="index4.html">О нас</a></li>
+                <li><a class="navig" href="index3.html">Контакты</a></li>
+            </ul>
+            <a class="navig" href="index5.html">
+                <img src="img/profil.png" alt="Профиль" class="header__profile">
+            </a>    
+        </nav>
+    </header>
+    
+    <!-- Розовая навигационная линия для планшета -->
+    <div class="tablet-nav">
+        <div class="tablet-nav-inner">
+            <a href="index6.html" class="tablet-nav-item">Мои записи</a>
+            <a href="#" class="tablet-nav-item active">Личные данные</a>
+            <a href="index8.html" class="tablet-nav-item">Мои объекты</a>
+            <a href="index9.html" class="tablet-nav-item">Моя QR-биография</a>
+        </div>
+    </div>
+    
+    <main>
+        <section class="selectionlch">
+            <h2 class="lcdann">Личные данные</h2>
+            
+            <div class="lch_block_211">
+                <ol class="left_info">
+                
+                <li><a class="nav2_1" href="">Личные данные</a></li>
+
+
+                <div class="nav2_2">
+                   <li><a class="nav2_2_text" href="index6.html">Мои записи</a></li>
+                   <li><a class="nav2_2_text" href="index8.html">Мои объекты</a></li>
+                   <li><a class="nav2_2_text" href="index9.html">Моя QR-биография</a></li>
+                </div>
+                <div class="network">
+                 <a href="#">
+                    <img class = "max" src="img/max.svg" alt="Мах">
+                 </a>
+                 <a href="#">
+                    <img class = "inst" src="img/inst.svg" alt="Инстаграм">
+                 </a>
+                 <a href="#">
+                    <img class = "tg" src="img/tg.svg" alt="Телеграм">
+                 </a>  
+                </div>    
+            </ol>
+
+                <div class="right_info">
+                    <div class="right2_2_2">
+                        <div class="profile-photo-block">
+                            <img src="img/lichno.png" alt="Профиль">
+                        </div>
+                        <div class="profile-form">
+                            <div class="form-row">
+                                <div class="polivoda_carta">
+                                    <p class="p_pole">Имя</p>
+                                    <input type="text" value="Максим">
+                                </div>
+                                <div class="polivoda_carta">
+                                    <p class="p_pole">Фамилия</p>
+                                    <input type="text" value="Скородумов">
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="polivoda_carta">
+                                    <p class="p_pole">Дата рождения</p>
+                                    <input type="text" value="03.09.2006">
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <p class="p_pole">Пол</p>
+                                <div class="radio-group">
+                                    <label class="radio-label">
+                                        <input type="radio" name="gender" value="male" checked class="custom-radio">
+                                        <span>Мужской</span>
+                                    </label>
+                                    <label class="radio-label">
+                                        <input type="radio" name="gender" value="female" class="custom-radio">
+                                        <span>Женский</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+        <section class="selectionlch">
+            <div class="lch_block_2">
+                <div class="left_info_2">
+                    <div class="exit">
+                        <li><a class="exit_text" href="#">Выйти</a></li>
+                    </div>
+                </div>
+
+                <div class="right_info_2">
+                    <h4 class="contact-title2">Адрес</h4>
+                    
+                    <div class="sss">
+                        <div class="polivoda_carta">
+                            <p class="p_pole">Город</p>
+                            <input type="text" value="Санкт-Петербург">
+                        </div>
+                        <div class="polivoda_carta">
+                            <p class="p_pole">Улица</p>
+                            <input type="text" value="Звёздная">
+                        </div>
+                        <div class="polivoda_carta">
+                            <p class="p_pole">Дом</p>
+                            <input type="text" value="7">
+                        </div>
+                    </div>
+                    
+                    <div class="contact-row">
+                        <div class="contact-block">
+                            <h4 class="contact-title">телефон</h4>
+                            <p class="contact-value">+7(909)562-98-64</p>
+                            <a href="#" class="change-link">Изменить</a>
+                        </div>
+                        
+                        <div class="contact-block">
+                            <h4 class="contact-title">e-mail</h4>
+                            <p class="contact-value">Skorodumov_maks2006@mail.ru</p>
+                            <a href="#" class="change-link">Изменить</a>
+                        </div>
+                    </div>
+                    
+                    <div class="action-buttons">
+                        <button class="lch_card2_btn">
+                           Удалить
+                           <span class="arrow-circle">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                   <path d="M5 12h14M12 5l7 7-7 7"/>
+                               </svg>
+                           </span>
+                        </button>
+                        <button class="lch_card3_btn">
+                           Сохранить
+                           <span class="arrow-circle">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                   <path d="M5 12h14M12 5l7 7-7 7"/>
+                               </svg>
+                           </span>
+                        </button>
+                  
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <nav class="footer">
+            <a class="navig" href="index.html">
+                <img class="logo" src="img/logo.jpg" alt="Лого">
+            </a>
+            <ul class="spisok_footer">
+                <li><a class="navig" href="index2.html">Мастерские</a></li>
+                <li><a class="navig" href="index7.html">Галерея</a></li>
+                <li><a class="navig" href="index4.html">О нас</a></li>
+                <li><a class="navig" href="index5.html">Контакты</a></li>
+            </ul>
+            <div class="network_footer">
+                <a href="#"><img class="max" src="img/max.svg" alt="Мах"></a>
+                <a href="#"><img class="inst" src="img/inst.svg" alt="Инстаграм"></a>
+                <a href="#"><img class="tg" src="img/tg.svg" alt="Телеграм"></a>
+            </div>    
+        </nav>
+        <div class="copyrat">
+            <p class="navig">Все права защищены ООО "Wheeld" 2026 &copy;</p>
+            <p class="navig">Сайт используется исключительно в целях <br> информирования людей</p>
+        </div>
+    </footer>
+    
+    <script>
+        function toggleMenu() {
+            const mobileMenu = document.getElementById('mobileMenu');
+            mobileMenu.classList.toggle('active');
+        }
+
+        document.addEventListener('click', function(event) {
+            const mobileMenu = document.getElementById('mobileMenu');
+            const burgerMenu = document.querySelector('.burger-menu');
+            
+            if (!burgerMenu.contains(event.target) && !mobileMenu.contains(event.target)) {
+                mobileMenu.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>
